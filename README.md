@@ -35,6 +35,8 @@ All components were deployed and validated in a **simulated enterprise environme
     
 *   Align technical controls with **ISO 27001 ISMS requirements**
     
+ <img src="https://github.com/nassim-saii/Secure-Network-Project/blob/main/architecture/Diagram.png"  alt="screenshot" width="Auto" height="Auto" />
+
 
 🧩 Project Scope
 ----------------
@@ -77,7 +79,8 @@ The solution follows a **layered enterprise architecture**:
 *   **WAN Layer** – Controlled external access
     
 
-_(See /architecture/global\_security\_architecture.png)_
+   <img src="https://github.com/nassim-saii/Secure-Network-Project/blob/main/architecture/Architecture.png"  alt="screenshot" width="Auto" height="Auto" />
+
 
 🔐 Security Components & Roles
 ------------------------------
@@ -147,9 +150,9 @@ A.14 Secure application deployment (Odoo)
 *   Log forwarding from ERP host to **Wazuh**
     
 *   Continuous monitoring and alerting
-    
 
-_(See /architecture/erp\_hardening\_architecture.png)_
+    [ <img src="https://github.com/nassim-saii/Secure-Network-Project/blob/main/screenshots/Screenshot%202026-01-09%20200039.png"  alt="screenshot" width="Auto" height="Auto" />
+
 
 🧪 Demonstration & Validation
 -----------------------------
