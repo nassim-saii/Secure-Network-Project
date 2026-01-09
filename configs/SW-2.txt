@@ -1,0 +1,41 @@
+
+enable 
+configure  terminal
+ 
+
+hostname SW-2
+
+vlan 10
+ name GENERAL
+vlan 20
+ name HR
+vlan 30
+ name FINANCE
+vlan 99
+ name MANAGEMENT
+
+interface range g0/0-1
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+ switchport trunk native vlan 99
+ switchport trunk allowed vlan 10,20,30,99
+
+interface g0/2
+switchport mode access
+switchport access vlan 99
+
+interface g0/3
+ switchport mode access
+ switchport access vlan 20
+
+interface vlan 99
+ ip address 172.16.99.12 255.255.255.0
+
+ip default-gateway 172.16.99.1
+
+end
+
+write memory
+copy running-config startup-config
+
+

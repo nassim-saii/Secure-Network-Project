@@ -1,0 +1,83 @@
+
+enable 
+configure  terminal
+
+hostname SW-CORE-1
+
+ip routing
+
+vlan 10
+name GENERAL
+vlan 20
+name HR
+vlan 30
+name FINANCE
+vlan 99
+name MANAGEMENT
+
+interface vlan 10
+ip address 172.16.10.1 255.255.255.0
+
+interface vlan 20
+ip address 172.16.20.1 255.255.255.0
+
+interface vlan 30
+ip address 172.16.30.1 255.255.255.0
+
+interface vlan 99
+ ip address 172.16.99.1 255.255.255.0
+
+
+
+ip dhcp excluded-address 192.168.99.1 192.168.99.10
+
+ip dhcp pool VLAN99
+network 192.168.99.0 255.255.255.0
+default-router 192.168.99.1
+exit
+
+
+
+interface g0/0
+ description Link to FW_1
+ no switchport
+ ip address 192.168.1.2 255.255.255.252
+ 
+interface range g0/1-3
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk native vlan 99
+switchport trunk allowed vlan 10,20,30,99
+
+interface range g1/0-1 
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk native vlan 99
+switchport trunk allowed vlan 10,20,30,99
+
+interface port-channel 1
+switchport trunk  encapsulation dot1q
+switchport mode trunk
+switchport trunk native vlan 220
+switchport trunk allowed vlan 210,215,220,300
+no shutdown
+end
+
+
+ip route 0.0.0.0 0.0.0.0 192.168.1.1
+
+end
+
+
+write memory
+copy running-config startup-config
+
+
+
+ip dhcp excluded-address 192.168.99.1 192.168.99.10
+
+ip dhcp pool VLAN99
+network 192.168.99.0 255.255.255.0
+default-router 192.168.99.1
+exit
+
