@@ -222,7 +222,7 @@ All documents are available in /docs.
 *   **Abidli Roudaina**
     
 
-**Class**: ING-5-SSIR-B**Academic Year**: 2023–2026
+**Class**: ING-5-SSIR **Academic Year** : 2025–2026
 
 📜 License
 ----------
