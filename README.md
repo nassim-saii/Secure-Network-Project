@@ -151,7 +151,7 @@ A.14 Secure application deployment (Odoo)
     
 *   Continuous monitoring and alerting
 
-    [ <img src="https://github.com/nassim-saii/Secure-Network-Project/blob/main/screenshots/Screenshot%202026-01-09%20200039.png"  alt="screenshot" width="Auto" height="Auto" />
+    <img src="https://github.com/nassim-saii/Secure-Network-Project/blob/main/screenshots/Screenshot%202026-01-09%20200039.png"  alt="screenshot" width="Auto" height="Auto" />
 
 
 🧪 Demonstration & Validation
