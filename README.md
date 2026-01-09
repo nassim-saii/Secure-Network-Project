@@ -221,8 +221,10 @@ All documents are available in /docs.
     
 *   **Abidli Roudaina**
     
+**Supervisor**: Mourad Melliti  
+**Class**: ING-5-SSIR
+**Academic Year** : 2025–2026
 
-**Class**: ING-5-SSIR **Academic Year** : 2025–2026
 
 📜 License
 ----------
