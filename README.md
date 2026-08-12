@@ -79,7 +79,7 @@ The solution follows a **layered enterprise architecture**:
 *   **WAN Layer** – Controlled external access
     
 
-   <img src="https://github.com/nassim-saii/Secure-Network-Project/blob/main/architecture/Architecture.png"  alt="screenshot" width="Auto" height="Auto" />
+   <img src="https://github.com/nassim-sai/Secure-Network-Project/blob/main/architecture/Architecture.png"  alt="screenshot" width="Auto" height="Auto" />
 
 
 🔐 Security Components & Roles
@@ -100,6 +100,12 @@ Component Role
 **Docker** Secure ERP deployment
 
 **Odoo ERP** Business application
+
+   <img src="https://github.com/nassim-sai/Secure-Network-Project/blob/main/screenshots/Screenshot 2026-01-09 200115.png"  alt="screenshot" width="Auto" height="Auto" />
+
+
+Secure-Network-Project/screenshots
+/Screenshot 2026-01-09 200115.png
 
 📜 ISO 27001 Alignment
 ----------------------
@@ -151,7 +157,7 @@ A.14 Secure application deployment (Odoo)
     
 *   Continuous monitoring and alerting
 
-    <img src="https://github.com/nassim-saii/Secure-Network-Project/blob/main/screenshots/Screenshot%202026-01-09%20200039.png"  alt="screenshot" width="Auto" height="Auto" />
+    <img src="https://github.com/nassim-sai/Secure-Network-Project/blob/main/screenshots/Screenshot%202026-01-09%20200039.png"  alt="screenshot" width="Auto" height="Auto" />
 
 
 🧪 Demonstration & Validation
