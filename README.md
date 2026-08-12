@@ -223,7 +223,7 @@ All documents are available in /docs.
 👨‍💻 Authors
 -------------
 
-*   **Saii Nassim**
+*   **Sai Nassim**
     
 *   **Abidli Roudaina**
     
