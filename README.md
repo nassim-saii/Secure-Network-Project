@@ -35,7 +35,7 @@ All components were deployed and validated in a **simulated enterprise environme
     
 *   Align technical controls with **ISO 27001 ISMS requirements**
     
- <img src="https://github.com/nassim-saii/Secure-Network-Project/blob/main/architecture/Diagram.png"  alt="screenshot" width="Auto" height="Auto" />
+ <img src="https://github.com/nassim-sai/Secure-Network-Project/blob/main/architecture/Diagram.png"  alt="screenshot" width="Auto" height="Auto" />
 
 
 🧩 Project Scope
